@@ -1,0 +1,76 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1773898120865,
+      "tag": "0000_stale_supernaut",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1773904413191,
+      "tag": "0001_vengeful_machine_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1773929683357,
+      "tag": "0002_sticky_redwing",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1774016263764,
+      "tag": "0003_amused_cerise",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1774016586431,
+      "tag": "0004_silent_phil_sheldon",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1774534513813,
+      "tag": "0005_bright_screwball",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1774593343235,
+      "tag": "0006_gigantic_norrin_radd",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1774608012815,
+      "tag": "0007_lazy_beyonder",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1774610392983,
+      "tag": "0008_fresh_george_stacy",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1775067331694,
+      "tag": "0009_lonely_captain_universe",
+      "breakpoints": true
+    }
+  ]
+}
