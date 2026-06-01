@@ -31,8 +31,8 @@ export default function SignInPage() {
             setError('Password is required');
             return false;
         }
-        if (password.length < 6) {
-            setError('Password must be at least 6 characters');
+        if (password.length < 8) {
+            setError('Password must be at least 8 characters');
             return false;
         }
         return true;
@@ -97,12 +97,12 @@ export default function SignInPage() {
     };
 
     return (
-        <div className="min-h-screen bg-gradient-to-b from-white to-[#FEF9E6] font-sans antialiased">
+        <div className="min-h-screen bg-linear-to-b` from-white to-[#FEF9E6] font-sans antialiased">
             {/* Success Toast Notification */}
             {showSuccessToast && (
                 <div className="fixed top-4 right-4 z-50 animate-slide-in">
                     <div className="flex items-center gap-3 bg-green-50 border border-green-200 rounded-lg px-4 py-3 shadow-lg">
-                        <div className="flex-shrink-0">
+                        <div className="shrink-0">
                             <svg className="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                             </svg>
@@ -219,7 +219,7 @@ export default function SignInPage() {
                         <button
                             type="submit"
                             disabled={isLoading}
-                            className="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-[#FAE27C] to-[#C3EBFA] text-gray-800 font-semibold shadow-md hover:shadow-lg transition-all hover:-translate-y-0.5 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:translate-y-0 relative"
+                            className="w-full py-3 px-4 rounded-xl bg-linear-to-r from-[#FAE27C] to-[#C3EBFA] text-gray-800 font-semibold shadow-md hover:shadow-lg transition-all hover:-translate-y-0.5 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:translate-y-0 relative"
                         >
                             {isLoading ? (
                                 <div className="flex items-center justify-center gap-2">

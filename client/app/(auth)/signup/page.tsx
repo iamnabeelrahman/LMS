@@ -144,13 +144,13 @@ export default function SignUpPage() {
     const isLoading = isRegistering || isVerifying || isResending;
 
     return (
-        <div className="min-h-screen bg-gradient-to-b from-white to-[#FEF9E6] font-sans antialiased">
+        <div className="min-h-screen bg-linear-to-b from-white to-[#FEF9E6] font-sans antialiased">
             {/* OTP Modal */}
             {showOtpModal && (
                 <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
                     <div className="bg-white rounded-2xl max-w-md w-full p-6 shadow-xl">
                         <div className="text-center mb-6">
-                            <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-[#FAE27C] to-[#C3EBFA] shadow-lg mb-4">
+                            <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-linear-to-br from-[#FAE27C] to-[#C3EBFA] shadow-lg mb-4">
                                 <span className="text-2xl">✉️</span>
                             </div>
                             <h3 className="text-xl font-bold text-gray-900">Verify Your Email</h3>
@@ -187,7 +187,7 @@ export default function SignUpPage() {
                             <button
                                 onClick={handleVerifyOtp}
                                 disabled={isLoading}
-                                className="w-full py-3 rounded-xl bg-gradient-to-r from-[#FAE27C] to-[#C3EBFA] text-gray-800 font-semibold shadow-md hover:shadow-lg transition-all disabled:opacity-50"
+                                className="w-full py-3 rounded-xl bg-linear-to-r from-[#FAE27C] to-[#C3EBFA] text-gray-800 font-semibold shadow-md hover:shadow-lg transition-all disabled:opacity-50"
                             >
                                 {isVerifying ? 'Verifying...' : 'Verify Email'}
                             </button>
@@ -209,7 +209,7 @@ export default function SignUpPage() {
                 <div className="w-full max-w-md">
                     {/* Header */}
                     <div className="text-center mb-8">
-                        <Image src={"/sarallmslogo.png"} height={50} width={50} alt='Saral LMS logo' className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-[#FAE27C] to-[#C3EBFA] shadow-lg mb-4" />
+                        <Image src={"/sarallmslogo.png"} height={50} width={50} alt='Saral LMS logo' className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-linear-to-br from-[#FAE27C] to-[#C3EBFA] shadow-lg mb-4" />
                         <h2 className="text-3xl font-bold text-gray-900">Create your account</h2>
                         <p className="mt-2 text-gray-600">Start your journey with Saral LMS today</p>
                     </div>
@@ -410,7 +410,7 @@ export default function SignUpPage() {
                         <button
                             type="submit"
                             disabled={!agreeTerms || isLoading}
-                            className="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-[#FAE27C] to-[#C3EBFA] text-gray-800 font-semibold shadow-md hover:shadow-lg transition-all hover:-translate-y-0.5 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0"
+                            className="w-full py-3 px-4 rounded-xl bg-linear-to-r from-[#FAE27C] to-[#C3EBFA] text-gray-800 font-semibold shadow-md hover:shadow-lg transition-all hover:-translate-y-0.5 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0"
                         >
                             {isRegistering ? 'Creating Account...' : 'Create Free Account'}
                         </button>
